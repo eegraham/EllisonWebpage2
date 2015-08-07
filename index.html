@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Basic Bootstrap Template</title>
+    <title>Ellison Graham</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
@@ -13,21 +13,51 @@
 <body>
 	 <h1>Ellison Graham</h1>
 	<img class="displayed" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/005/093/3a1/31ca827.jpg" height="250" width="250">
-		<div id="menu">
-			<h3>About</h3>
-			<div>
-				<p id="about">I grew up in Alabama and have deep Southern roots. I went to college at the University of Alabama where I got my BS in English with a minor in Spanish. I continued my studies at UA to get my MLIS. After I graduated I moved to Colorado and got the travel bug. I have lived in Bocas del Toro, Panama; Denver, CO; Winter Park, CO; Firestone, CO; Powers, OR; Portland, OR; Philadelphia, PA. My next move is to Asheville, NC where I'm planning to stick around for awhile.
-				</p>
-			</div>
-			<h3>Interests</h3>
-			<div>
-				<p>cooking, swimming, music</p>
-			</div>
-			<h3>Skills</h3>
-			<div>
-				<p>archiving, HTML, javascript, jQuery, guitar, accordion, ukulele, knowing where everything is always
-				</p>
-			</div>
+		<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Ellison</a>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="http://ellison.tideinteractive.com/" target="_blank">Home</a></li>
+				<li><a href="http://ellison.tideinteractive.com/" target="_blank">About</a></li>
+				<li><a href="http://www.tutorialrepublic.com/contact-us.php" target="_blank">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container">
+	<div class="jumbotron">
+		<h1>Meet Ellison</h1>
+		<p>I grew up in Alabama and have deep Southern roots. I went to college at the University of Alabama where I got my BS in English with a minor in Spanish. I continued my studies at UA to get my MLIS. After I graduated I moved to Colorado and got the travel bug. I have lived in Bocas del Toro, Panama; Denver, CO; Winter Park, CO; Firestone, CO; Powers, OR; Portland, OR; Philadelphia, PA. My next move is to Asheville, NC where I'm planning to stick around for awhile.</p>
+		<p><a href="https://www.linkedin.com/in/ellisongraham" target="_blank" class="btn btn-success btn-lg">Find Out More</a></p>
+	</div>
+	<div class="row">
+		<div class="col-xs-4">
+			<h2>Interests</h2>
+			<p>cooking, swimming, music, traveling, coding</p>
+			<p><a href="https://twitter.com/elgrey" target="_blank" class="btn btn-success">Follow Along &raquo;</a></p>
+		</div>
+		<div class="col-xs-4">
+			<h2>Skills</h2>
+			<p>archiving, HTTP, CSS, JavaScript, jQuery, guitar, accordion, ukulele</p>
+			<p><a href="https://github.com/eegraham/" target="_blank" class="btn btn-success">See Projects &raquo;</a></p>
+		</div>
+		<div class="col-xs-4">
+			<h2>Favorite Color</h2>
+			<p id="color">Blue</p>
+			<p><a href="http://lmgtfy.com/?q=blue" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+		</div>
+	</div>
 		</div>    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="ellisonwebpage.js"></script>
