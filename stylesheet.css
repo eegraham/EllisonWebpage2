@@ -6,6 +6,7 @@ h1 {
 
 body {
 	font-family: "Palatino", "Georgia", serif;
+	padding-top: 4em;
 }
 
 img.displayed {
@@ -16,4 +17,26 @@ img.displayed {
 
 p.color {
 	color: green;
+}
+
+body {
+	background: url(https://lh3.googleusercontent.com/xLl85RxXUvVEpPn_2Kf0vVZmwj2Ujm8H-pnkj17FsfQ=w1070-h802-no) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.jumbotron {
+    padding: 0.5em 0.6em;
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+    p {
+        font-size: 1em;
+        .btn {
+            padding: 0.5em;
+        }
+    }
 }
